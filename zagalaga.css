@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282A35;
+    /* color:white; */
+ } 
+
+ * mark{
+    color:red; font-weight: bold;
+ }
+
+ header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    position: relative;
+    width: 99.5%;
+    height: 195px;
+    border: yellow solid 2px;
+    margin:3px;
+    padding:20px;
+    /* background-color:#E7E9EB; */
+    font-size:90%;
+    line-height:2.8em;
+    color: yellow;
+    
+  }
+
+  .provin-1{
+
+    width: 22%;
+    height: 150px;
+    border: goldenrod solid 8px ;
+    border-right: goldenrod ;
+    border-top: #282A35 ;
+    border-bottom:#282A35 ;
+    border-radius: 15px;
+    font-family: elephant;
+    font-size: 3.5em;
+    color: gold;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    text-shadow: aqua 2px 3px 18px ;
+  }
+
+  .provin-2{
+
+    width: 58%;
+    height: 120px;
+    /* border: tomato solid 2px; */
+  }
+
+  .provin-3{
+
+    width: 19%;
+    height: 150px;
+    border: gold solid 8px;
+    
+  }
+ 
+  .provin-4{
+
+    display: flex;
+    width: 58%;
+    position: relative;
+    /* border: tomato solid 2px; */
+    height: 20px;   
+    margin-left: 10px;
+    align-items: center;
+    
+    
+    
+  }
+
+  .myRecherche{
+
+    color: yellow;
+    width: 100%;
+    padding-left: 2px;
+   
+    margin-left: 15px;
+    position: absolute;
+    margin-bottom: 40px;
+
+  }
+ 
+  .provin-2 ul{
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    
+
+  }
+
+  .provin-2 ul li a{
+      text-decoration: none;
+      color: yellow;
+  }
+
+  .provin-2 ul li a:hover{
+
+    color: hotpink;
+
+  }
+
+
+  .provin-2 ul li a:active{
+
+    color: lime;
+
+  }
+
+  /* _______________________ Debut de 1er SECTION _____________________________________________________ */
+  
+section{
+    width: 99.5%;
+    /* border: hotpink solid 3px; */
+    margin: 3px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+    color: white;
+    padding-top: 2px;
+
+}
+
+nav{
+    width: 74.5%;   
+    /* border: black solid 2px; */
+    padding: 10px;
+    font-size: 17px;
+}
+
+nav h1, h2{
+
+  color: white;
+}
+
+strong{
+  text-decoration: underline;
+  color: yellow;
+  font-weight: bolder;
+}
+
+/* ---------------------------------------- Debut de article ---------------------------------------------> */
+
+article{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 24.5%;
+    border: red solid 3px; 
+    padding: 10px;
+    font-size: 17px;
+    font-family: Times New Roman;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    
+}
+
+
+.myParagraphe {
+   
+    /* border: 1px silver solid; */
+    width: 99%;
+    margin-top: 2px;
+    padding: 5px;
+    position: relative;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+article h1, h2{
+    text-align: center;
+    border: 2px teal solid;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+    
+}    
+
+.cadremyfoto{
+    float: right;
+    width: 145px;
+    height: 135px;
+    /* border: 3px red solid; */
+    margin-right: 3px;    
+}
+
+.cadremyfoto img{
+    width: 99%;
+    height: 97%;
+    padding: 2px;
+    border-radius: 100%;
+}
+span{
+    text-decoration: underline;
+    color: yellow;
+    
+}
+
+article ul{
+
+  list-style-type: number;
+  padding-left: 25px;
+  
+}
+
+article ul a{
+
+  text-decoration: none;
+  color: yellow;
+}
+article ul a:hover{  
+  color: lime;
+}
+
+article ul a:visited{  
+  color: aqua;
+}
+
+.cadremyfoto img:hover{
+
+  border: hotpink 8px solid;
+  border-radius: 100%;
+}
+
+ /* _______________________________ Terminis de 1er SECTION _________________________________________________ */
+  
+/* _____________________________________ Debut de FOOTER _____________________________________________________ */
+
+
+footer{
+
+    width: 99.5%;
+    /* height: 70px; */
+    border: hotpink solid 1px;
+    margin: 3px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+    
+    color: yellow;
+}
+
+.provin-myFooter1{
+
+  width: 150px;
+  height: 50px;
+  /* border: azure solid 1px; */
+}
+
+.provin-myFooter1{
+
+  width: 350px;
+  height: 50px;
+  /* border: azure solid 1px; */
+  margin-top: 10px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+}
+.provin-myFooter2{
+
+  width: 200px;
+  height: 50px;
+  /* border: azure solid 1px; */
+  margin-top: 10px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+.provin-myFooter2 a {
+
+ color: yellow;
+  
+}
+
+.provin-myFooter2 img{
+
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding-top: 3px;
+}
